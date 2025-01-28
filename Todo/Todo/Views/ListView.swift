@@ -15,7 +15,7 @@ struct ListView: View {
         NavigationView {
             List {
                 ForEach(data) {todo in
-                    Text(todo.title)
+                    RowView(todo: todo)
                 }
             }
             .listStyle(PlainListStyle())
@@ -25,13 +25,15 @@ struct ListView: View {
                     EditButton()
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    NavigationLink("Add", destination: EmptyView())
+                    NavigationLink("Add", destination: AddTodoView())
                 }
             }
         }
     }
 }
 
+
+
 #Preview {
-    ContentView()
+    ListView(data: Todo.testData)
 }
