@@ -11,8 +11,8 @@ import SwiftUI
 struct TodoApp: App {
     var body: some Scene {
         WindowGroup {
-            ListView(data:Todo.testData)
-            
+            ListView()
+                .environmentObject(TodoViewModel())
         }
     }
 }
