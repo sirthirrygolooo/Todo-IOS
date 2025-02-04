@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C40F2CD72D51F92F00597A4C /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40F2CD62D51F92F00597A4C /* TodoViewModel.swift */; };
+		C40F2CE12D52090400597A4C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40F2CE02D52090300597A4C /* MainView.swift */; };
 		C4D006502D48C40900507FE7 /* TodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D0064F2D48C40900507FE7 /* TodoApp.swift */; };
 		C4D006542D48C40A00507FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D006532D48C40A00507FE7 /* Assets.xcassets */; };
 		C4D006572D48C40A00507FE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D006562D48C40A00507FE7 /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		C40F2CD62D51F92F00597A4C /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = SOURCE_ROOT; };
+		C40F2CE02D52090300597A4C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = "../../../../Expense-IOS/Expense/Views/MainView.swift"; sourceTree = "<group>"; };
 		C4D0064C2D48C40900507FE7 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D0064F2D48C40900507FE7 /* TodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoApp.swift; sourceTree = "<group>"; };
 		C4D006512D48C40900507FE7 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		C4D0065F2D48C44900507FE7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C40F2CE02D52090300597A4C /* MainView.swift */,
 				C4D006512D48C40900507FE7 /* ListView.swift */,
 				C4D006632D48C6A800507FE7 /* RowView.swift */,
 				C4D006652D48C81C00507FE7 /* AddTodoView.swift */,
@@ -174,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C40F2CD72D51F92F00597A4C /* TodoViewModel.swift in Sources */,
+				C40F2CE12D52090400597A4C /* MainView.swift in Sources */,
 				C4D0065E2D48C42000507FE7 /* Todo.swift in Sources */,
 				C4D006502D48C40900507FE7 /* TodoApp.swift in Sources */,
 				C4D006622D48C54B00507FE7 /* ListView.swift in Sources */,
