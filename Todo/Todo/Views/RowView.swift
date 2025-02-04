@@ -18,6 +18,15 @@ struct RowView: View {
                 .foregroundStyle(todo.isCompleted ? .green : .red)
             Text(todo.title)
             Spacer()
+            Text(todo.priotity.rawValue)
+                .font(.footnote)
+                .padding(3)
+                .foregroundStyle(Color(.systemGray2))
+                .frame(width: 62)
+                .overlay(
+                Capsule()
+                    .stroke(Color(.systemGray2), lineWidth: 0.75)
+                )
         }
         .font(.title2)
         .padding(.vertical, 10)
